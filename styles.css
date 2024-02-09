@@ -16,7 +16,7 @@ body {
 }
 
 /* cool borders */
-:root {
+/* :root {
   --borderRed: 2px solid red;
   --borderLime: 2px solid lime;
   --borderPink: 2px solid pink;
@@ -33,7 +33,7 @@ body {
   --borderGreen: 2px solid green;
   --borderAqua: 4px solid aqua;
   --borderTurquoise: 2px solid turquoise;
-}
+} */
 
 /* --------------------- header -------------------------- */
 
@@ -109,6 +109,7 @@ nav ul li a:hover::after {
 .about {
   padding: 80px 0;
   color: #ababab;
+  margin-bottom: 50px;
 }
 
 .about1{
@@ -116,6 +117,7 @@ nav ul li a:hover::after {
   border-radius: 5px;
   margin: 10px;
   padding: 10px;
+  margin-bottom: 50px;
 }
 
 .row {
