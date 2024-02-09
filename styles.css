@@ -16,7 +16,7 @@ body {
 }
 
 /* cool borders */
-/* :root {
+:root {
   --borderRed: 2px solid red;
   --borderLime: 2px solid lime;
   --borderPink: 2px solid pink;
@@ -33,7 +33,7 @@ body {
   --borderGreen: 2px solid green;
   --borderAqua: 4px solid aqua;
   --borderTurquoise: 2px solid turquoise;
-} */
+}
 
 /* --------------------- header -------------------------- */
 
@@ -60,7 +60,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  position: fixed;
 }
 
 nav ul li {
@@ -135,24 +134,14 @@ nav ul li a:hover::after {
 }
 
 .sub-title {
-  margin-bottom: 10px;
   font-size: 60px;
   font-weight: 600;
   color: #fff;
 }
 
-.about-p {
-  padding: 10px;
-  background: #262626;
-  color: #ababab;
-}
-
 .tab-titles {
   display: flex;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  padding: 10px;
-  /* border: 2px solid #b54769; */
+  margin: 20px 0 40px;
 }
 
 .tab-links {
